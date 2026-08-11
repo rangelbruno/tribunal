@@ -1,0 +1,8 @@
+streamlit
+python-pkcs11
+cryptography>=43.0.3
+asn1crypto
+pyHanko
+pypdf
+easyocr
+PyMuPDF
