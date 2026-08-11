@@ -34,6 +34,16 @@ Depois, acesse no navegador:
 
 No Windows, também é possível abrir o arquivo **Iniciar Assinador.bat**. Esse arquivo espera que o Python esteja instalado em `C:\Python314\python.exe`. Se o Python estiver em outro local, use o comando acima ou ajuste o caminho no arquivo `.bat`.
 
+### Linux ou macOS
+
+O script de inicialização cria o ambiente virtual, instala as dependências necessárias e inicia o projeto automaticamente:
+
+```bash
+./start.sh
+```
+
+Na primeira execução, a instalação pode demorar alguns minutos. Nas próximas, o projeto será iniciado diretamente, exceto quando o `requirements.txt` for alterado.
+
 ## Configuração do certificado A3
 
 Na página **Tribunal 2.0**:
