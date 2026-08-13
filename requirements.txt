@@ -6,3 +6,5 @@ pyHanko
 pypdf
 easyocr
 PyMuPDF
+pytesseract
+Pillow

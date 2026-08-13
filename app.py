@@ -6,6 +6,7 @@ assinador = st.Page("pages/assinador.py", title="Tribunal 2.0", icon=":material/
 dividir_pdf = st.Page("pages/dividir_pdf.py", title="Dividir PDF (5 MB)", icon=":material/content_cut:")
 extrair_zip = st.Page("pages/extrair_zip.py", title="Extrair ZIPs", icon=":material/folder_zip:")
 ocr = st.Page("pages/ocr.py", title="OCR (Extrair Texto)", icon=":material/document_scanner:")
+pdf_pesquisavel = st.Page("pages/pdf_pesquisavel.py", title="PDF Pesquisável (Lote)", icon=":material/pageless:")
 
-nav = st.navigation([assinador, dividir_pdf, extrair_zip, ocr])
+nav = st.navigation([assinador, dividir_pdf, extrair_zip, ocr, pdf_pesquisavel])
 nav.run()

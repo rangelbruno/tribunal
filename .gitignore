@@ -5,3 +5,5 @@ venv/
 .env
 .claude/settings.local.json
 .streamlit/secrets.toml
+.playwright-mcp/
+*.png
